@@ -1,0 +1,14 @@
+my_name = "Damian"
+first_initial = my_name[0]
+print(first_initial)
+
+password = ''
+for letter in my_name:
+  if letter == 'a' or letter == "A":
+    letter = 123
+    password += str(letter)
+  if letter == 'd' or letter == 'D':
+    letter = 125
+    password += str(letter)
+  print(letter)
+print(password)
